@@ -4,7 +4,7 @@
 ![](https://img.shields.io/github/license/AutomaticAI/new-website?color=black)
 ![](https://img.shields.io/maintenance/yes/2030?style=plastic)
 
-Make dreams a reality with AutoAI
+## Make dreams a reality with AutoAI
 
 Try AutoAI to simplify data analysis. Generate answers and make quick & fast thoughts. No manual needed. Experience the future of analytics and say hello to innovation.
 
