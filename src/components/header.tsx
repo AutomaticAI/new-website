@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const navigation = [
     { name: "Chatbot", href: "https://use.autoai.site" },
     { name: "Source Code", href: "https://github.com/AutomaticAI" },
-    { name: "Settings", href: "/404" },
+    { name: "Credits", href: "/404" },
 ];
 
 const Header: React.FC = (props) => {
@@ -42,7 +42,7 @@ const Header: React.FC = (props) => {
                 <div className="fixed inset-0 z-50" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
                     <div className="flex items-center justify-between">
-                        <Link className="-m-1.5 p-1.5" to="/">i18n.ai</Link>
+                        <img className="-m-1.5 p-1.5" src="https://i.imgur.com/zTNfGqc.png" alt="AutoAI" />
                         
                         <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-400" onClick={() => setMobileMenuOpen(false)}>
                             <span className="sr-only">Close menu</span>
@@ -64,10 +64,10 @@ const Header: React.FC = (props) => {
                             </div>
                             <div className="py-6">
                                 <a
-                                    href="#"
+                                    href="https://help.autoai.site"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
                                 >
-                                    Log in
+                                    Documentation
                                 </a>
                             </div>
                         </div>
